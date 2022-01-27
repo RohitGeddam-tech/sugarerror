@@ -1,0 +1,32 @@
+.terms-conditions-section {
+  padding-top: 20px;
+  .section-content-wrapper {
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+  }
+  ol {
+    padding-left: 20px;
+  }
+  li {
+    margin-bottom: 8px;
+  }
+  .nested-ol {
+    list-style-type: decimal;
+    ul {
+      padding-left: 25px;
+      list-style-type: disc;
+    }
+  }
+  h4 {
+    padding-top: 20px;
+  }
+  .red {
+    font-weight: 600;
+    color: $red;
+    cursor: default;
+  }
+  .black {
+    font-weight: 600;
+  }
+}

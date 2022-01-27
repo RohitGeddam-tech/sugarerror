@@ -1,0 +1,51 @@
+.patient-overview-container {
+  .wd-37 {
+    min-width: 37%;
+  }
+  .wd-25 {
+    max-width: 25%;
+  }
+  @media (max-width: 768px) {
+    .wd-37 {
+      min-width: 98%;
+      margin: 0 auto;
+    }
+    .wd-25 {
+      min-width: 98%;
+      margin: 0 auto;
+    }
+  }
+}
+
+.lab-stats-container {
+  .paper-card.number-card .count {
+    height: auto;
+  }
+  .number-card {
+    width: 250px;
+  }
+}
+
+.customDatePicker {
+  background: $white;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 0.5px solid #b7b7b7;
+  border-radius: 3px;
+}
+.add-appointment table.upcoming-appointment{
+  thead tr th:last-child{
+    text-align: center;
+  }
+  .action-div{
+    flex-wrap: wrap;
+    justify-content: center !important;
+    .add-patient-btn{
+      margin: 2px 0 4px;
+      font-size: 14px;
+      svg{
+        width:20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.lab-office-details-wrapper {
+  .lab-office-details-card {
+    width: 300px;
+    height: 200px;
+    .phone-no,
+    address,
+    .lab-id {
+      font-size: 14px;
+      color: $input-color;
+      line-height: 22px;
+    }
+    .edit-details-link {
+      color: $blue;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+}

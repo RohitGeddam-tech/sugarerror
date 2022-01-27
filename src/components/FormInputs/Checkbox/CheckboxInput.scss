@@ -1,0 +1,75 @@
+.checkbox-input {
+  input {
+    display: none;
+  }
+  &.disabled {
+    .checkbox-checked {
+      cursor: not-allowed;
+    }
+  }
+  &.disabled,
+  input:disabled {
+    cursor: not-allowed;
+  }
+  .checkbox-checked {
+    content: url('../../../assets/Icons/checkbox.svg');
+    height: 18px;
+    width: 18px;
+    margin-top: 3px;
+    cursor: pointer;
+  }
+  input:checked + .checkbox-checked {
+    content: url('../../../assets/Icons/checkbox-checked.png');
+  }
+  input:checked + .checkbox-checked.blue {
+    content: url('../../../assets/Icons/blue-checkbox-checked.png');
+  }
+  &.checkbox-some-checked {
+    input + .checkbox-checked.blue {
+      content: url('../../../assets/Icons/indeterminate_check.svg') !important;
+    }
+  }
+}
+
+.pure-material-checkbox {
+  z-index: 0;
+  position: relative;
+  display: inline-block;
+  align-items: flex-start;
+  & > input {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    z-index: -1;
+    position: absolute;
+    left: -9px;
+    top: -6px;
+    display: block;
+    margin: 0;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    background-color: rgba(25, 118, 210, 0.07);
+    box-shadow: none;
+    outline: none;
+    opacity: 0;
+    transform: scale(1);
+    pointer-events: none;
+    transition: opacity 0.3s, transform 0.2s;
+    &:focus {
+      opacity: 1;
+    }
+  }
+  &:hover > input {
+    opacity: 1;
+    &:focus {
+      opacity: 1;
+    }
+  }
+  label{
+    margin-bottom: 0;
+  }
+  .checkbox-input .checkbox-checked{
+    margin-top: 0;
+  }
+}

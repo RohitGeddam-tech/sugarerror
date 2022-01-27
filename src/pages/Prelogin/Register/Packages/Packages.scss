@@ -1,0 +1,197 @@
+.package-section {
+  .our-packages-wrapper {
+    .package-container-headings {
+      background: rgba(238, 238, 238, 0.7);
+    }
+    .package-container-content {
+      padding-top: 37px;
+      margin-bottom: 70px;
+      .package-header {
+        .select-input {
+          width: 244px;
+        }
+        .package-nav {
+          border-bottom: 0.5px solid $secondary-gray;
+          .nav-item {
+            cursor: pointer;
+            &.active {
+              color: $red;
+              .nav-border {
+                background: $red;
+                padding: 2px 27px;
+                display: inline-block;
+                width: 100%;
+                border-radius: 16px;
+              }
+            }
+          }
+          .nav-border {
+            padding: 0;
+            margin: -43px 0 -8px;
+          }
+          .nav-link {
+            cursor: pointer;
+            margin-bottom: -23px;
+          }
+        }
+      }
+      .package-body {
+        @media (min-width: 768px) {
+          .package-card {
+            box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.35);
+            width: 217px;
+            &:not(:last-child) {
+              margin-right: 17px;
+            }
+            .card-body {
+              padding-left: 0;
+              padding-right: 0;
+            }
+          }
+          .custom-package-wrapper {
+            width: 250px;
+            margin: 50px auto;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
+            border-radius: 3px;
+          }
+        }
+        .slick-list {
+        }
+        .slick-slide {
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
+          border-radius: 3px;
+          margin: 24px;
+          @media (min-width: 425px) {
+            width: 273px !important;
+            &.slick-active {
+              margin-left: 24px;
+              &[data-index='0'] {
+                margin-left: 85px;
+              }
+              &[data-index='1'] {
+                margin-left: 155px;
+              }
+              &[data-index='2'] {
+                margin-left: 230px;
+              }
+              &[data-index='3'] {
+                margin-left: 305px;
+              }
+              &[data-index='4'] {
+                margin-left: 380px;
+              }
+            }
+          }
+        }
+      }
+      .custom-package-wrapper {
+        margin: 95px 70px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
+        border-radius: 3px;
+      }
+      .custom-package {
+        .package-name,
+        .package-expiary {
+          color: $blue !important;
+        }
+        .card-head {
+          border-bottom-color: $blue !important;
+        }
+      }
+    }
+  }
+  @media (min-width: 768px) {
+    .our-packages-wrapper {
+      .package-container-headings {
+        background-color: transparent;
+      }
+      .package-container-content {
+        padding-top: 0;
+      }
+      .package-nav {
+        width: 90%;
+        .nav-item {
+          margin-right: 35px;
+        }
+        .nav-link {
+          padding: 5px 5px 5px 0;
+          font-size: 16px;
+        }
+      }
+      .package-card {
+        .card-head {
+          padding: 10px !important;
+          .package-name {
+            font-size: 25px;
+          }
+          .package-expiary {
+            font-size: 18px;
+          }
+          .package-patients {
+            font-size: 15px;
+          }
+        }
+        .card-body {
+          padding: 26px 0 !important;
+        }
+        .card-foot {
+          padding: 0 0px 23px !important;
+        }
+      }
+    }
+  }
+  @media (min-width: 992px) {
+    .our-packages-wrapper {
+      .package-nav {
+        width: 80%;
+        .nav-item {
+          margin-right: 55px;
+        }
+        .nav-link {
+          padding: 5px 5px 5px 0;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .features-wrapper {
+    .feature {
+      margin: auto;
+      width: 200px;
+      @media (min-width: 768px) {
+        margin: 0 40px;
+      }
+      .features-img {
+      }
+      .feature-name {
+        margin-bottom: 80px;
+        font-size: 20px;
+        color: $input-color;
+        font-weight: bold;
+      }
+    }
+    .show-more-feature {
+      .btn-outline {
+        font-size: 20px;
+        color: $input-color;
+        font-weight: bold;
+        padding: 14px 17px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+      margin-bottom: 60px;
+    }
+  }
+
+  .questions-asked-section {
+    padding: 48px 0 43px;
+    .text-content-wrapper {
+      text-align: left;
+      .section-top-hr {
+        margin: 0 0 10px;
+      }
+    }
+    @media (min-width: 768px) {
+      padding: 74px 0 98px;
+    }
+  }
+}

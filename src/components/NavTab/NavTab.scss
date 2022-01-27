@@ -1,0 +1,30 @@
+.nav-tabs {
+  width: 388px;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto 60px;
+  .nav-tab-link {
+    display: flex;
+    flex-direction: column;
+    span {
+      color: $input-color;
+      text-decoration: none;
+      cursor: pointer;
+      &:hover {
+        color: $input-color;
+      }
+    }
+
+    &.active {
+      span {
+        color: $red;
+        font-weight: 700;
+      }
+      .nav-border {
+        background: $red;
+        padding: 2px 27px;
+        border-radius: 3px;
+      }
+    }
+  }
+}

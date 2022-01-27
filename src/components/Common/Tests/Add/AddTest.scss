@@ -1,0 +1,95 @@
+.add-test-container {
+  margin-left: 100px;
+  .select-test-type{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 690px;
+  }
+  .form-content {
+    width: 690px;
+    .row .form-group:not(:last-child) {
+      padding-right: 0;
+    }
+  }
+  .report-type-table {
+    th {
+      padding-left: 13px;
+      &:first-child {
+        padding-left: 4px;
+      }
+    }
+    td {
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
+    td:last-child {
+      padding-bottom: 17px;
+      padding-left: 15px;
+      cursor: pointer;
+    }
+    .row-remove-btn {
+      display: contents;
+      text-align: right;
+    }
+  }
+  .test-range-form {
+    width: 800px;
+    table {
+      table-layout: fixed;
+      th:not(:last-child) {
+        width: 19%;
+      }
+      th:last-child {
+        width: 5%;
+      }
+    }
+  }
+  .possible-test-result-form {
+    table {
+      th:first-child {
+        width: 310px;
+      }
+    }
+  }
+  .pre-defined-test-result-form {
+    .text-area {
+      width: 350px;
+    }
+    table {
+      td {
+        padding-top: 0;
+        padding-left: 5px !important;
+      }
+    }
+  }
+  .formula-label {
+    padding: 5px;
+  }
+}
+.gray-label {
+  color: $primary-gray;
+  font-style: 14px;
+}
+.edit-test-btn {
+  padding: 5px 15px;
+  min-width: 70px;
+  .edit-test-label {
+    padding-top: 2px;
+  }
+}
+.edit-pencil {
+  svg {
+    height: 13px;
+    width: 14px;
+    path {
+      fill: $black;
+    }
+  }
+}
+.fit-content {
+  min-width: fit-content;
+}
+.view-test-container {
+  width: 652px;
+  margin-left: 100px;
+}

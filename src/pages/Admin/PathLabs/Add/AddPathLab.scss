@@ -1,0 +1,55 @@
+.add-path-lab-container {
+  .paper {
+    background-color: $white;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    .paper-label {
+      font-family: 'SourceSansPro-bold';
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 20px;
+      span {
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+    .w-40 {
+      width: 40%;
+    }
+    .w-100 {
+      width: 100%;
+    }
+  }
+  .form-content {
+    width: 385px;
+    margin: auto;
+
+    .resend-otp {
+      font-size: 14px;
+
+      .blue-link {
+        color: $light-blue;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .add-path-lab-container {
+    .form-content {
+      width: 500px;
+      margin: 0;
+      margin-left: 10%;
+    }
+  }
+}
+@media (min-width: 1024px) {
+  .add-path-lab-container {
+    .form-content {
+      width: 622px;
+    }
+  }
+}

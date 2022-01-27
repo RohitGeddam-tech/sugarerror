@@ -1,0 +1,109 @@
+.filter_container {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  max-height: 200px;
+  overflow: scroll;
+  top: 100px;
+  z-index: 1;
+  left: 400px;
+  box-shadow: 1px 1px 0px 0.5px lightgrey;
+  background: #ffffff;
+  border: 0.5px solid #b7b7b7;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 10px;
+}
+.filter_container::-webkit-scrollbar {
+  display: none;
+}
+
+.filter_container label input {
+  margin-right: 10px;
+}
+.filter_container span {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.filter_container_status {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  max-height: 200px;
+  overflow: scroll;
+  top: 100px;
+  z-index: 1;
+  left: 400px;
+  box-shadow: 1px 1px 0px 0.5px lightgrey;
+  background: #ffffff;
+  border: 0.5px solid #b7b7b7;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.filter_container_pac {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  max-height: 200px;
+  overflow: scroll;
+  top: 100px;
+  z-index: 1;
+  left: 400px;
+  box-shadow: 1px 1px 0px 0.5px lightgrey;
+  background: #ffffff;
+  border: 0.5px solid #b7b7b7;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 10px;
+}
+.filter_container_status label {
+  font-size: 14px;
+  padding-left: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.filter_container_pac label {
+  font-size: 14px;
+  padding-left: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.filter_container_status::-webkit-scrollbar {
+  display: none;
+}
+.filter_container_pac::-webkit-scrollbar {
+  display: none;
+}
+.filter_container_status label input {
+  margin-right: 10px;
+}
+.filter_container_status span {
+  font-size: 14px;
+  cursor: pointer;
+}
+.filter_container_pac label input {
+  margin-right: 10px;
+}
+.filter_container_pac span {
+  font-size: 14px;
+  cursor: pointer;
+}
+.filter_container label {
+  font-size: 14px;
+  padding-left: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.filter_container label input {
+  margin-right: 10px;
+}
+.filter_container span {
+  font-size: 14px;
+  cursor: pointer;
+}

@@ -1,0 +1,120 @@
+.about-us-main-wrapper {
+  .about-us-section {
+    background: url('../../../assets/images/AboutUs/about-us-mobile.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    .red-heading {
+      text-transform: none;
+    }
+    .para {
+      font-size: 20px;
+    }
+
+    @media (min-width: 768px) {
+      background: url('../../../assets/images/AboutUs/about-us-hero.svg');
+      .para {
+        margin: auto 90px;
+      }
+    }
+  }
+  .our-vision-section {
+    .image-content-wrapper {
+      .section-img {
+        width: 328px;
+        height: 322px;
+      }
+    }
+    @media (min-width: 768px) {
+      .image-content-wrapper {
+        text-align: right;
+        .section-img {
+          width: 438px;
+          height: 300px;
+        }
+      }
+    }
+    @media (min-width: 992px) {
+      .text-content-wrapper {
+        margin-left: 70px;
+      }
+    }
+  }
+  .team-member-section {
+    background-color: $background-gray;
+    padding-bottom: 50px;
+    @media (max-width: 767px) {
+      padding-bottom: 100px;
+      .content-info {
+        display: none;
+      }
+    }
+    .team-member-card {
+      padding: 25px 30px;
+      border-color: $white;
+      border-radius: 3px;
+      .card-head {
+        padding: 0;
+        .member-role {
+          color: $primary-gray;
+        }
+      }
+      .card-body {
+        padding: 0;
+        margin: 15px auto 35px;
+        .member-img {
+          max-height: 190px;
+          width: 190px;
+          border-radius: 50%;
+        }
+      }
+      .card-foot {
+        padding: 0;
+        .member-name {
+          font-size: 20px;
+          margin-bottom: 0;
+        }
+      }
+      margin-bottom: 25px;
+    }
+  }
+  .get-sugarlogger-section {
+    background-color: $black;
+    .get-sugarlogger-content-wrapper {
+      .btn-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .free-demo-btn {
+          padding: 9px 23px;
+          margin-bottom: 18px;
+          width: max-content;
+        }
+        .sign-up-btn {
+          width: max-content;
+          padding: 10px 60px;
+        }
+      }
+      @media (min-width: 768px) {
+        width: 540px;
+        .btn-wrapper {
+          flex-direction: row;
+          justify-content: center !important;
+          text-align: center;
+          .free-demo-btn {
+            margin-bottom: 0;
+            margin-right: 20px;
+            padding: 5px 23px;
+          }
+          .sign-up-btn {
+            padding: 6px 60px;
+          }
+        }
+      }
+    }
+    .section-top-hr {
+      background: $white;
+    }
+  }
+}

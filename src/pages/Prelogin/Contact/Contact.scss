@@ -1,0 +1,53 @@
+.contact-us-section {
+  padding: 40px 20px 45px;
+  .enquiry-question {
+    .para {
+      font-style: 16px;
+      color: $primary-gray;
+    }
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .write-us-section {
+    order: 3;
+    padding-left: 6px;
+  }
+  .form-section {
+    order: 2;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .send-btn {
+    font-style: 16px;
+    padding: 5px 42px;
+  }
+
+  @media (min-width: 991px) {
+    .contact-us-wrapper {
+      flex-direction: row !important;
+    }
+    .enquiry-question {
+      width: 40%;
+      margin-left: 70px;
+    }
+    .write-us-section {
+      width: 40%;
+      margin-left: 70px;
+      margin-top: -160px;
+      padding-left: 0;
+    }
+    .form-section {
+      text-align: left;
+      width: 32%;
+      margin-left: 100px;
+      margin-bottom: 20px;
+      margin-top: 95px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .write-us-section {
+      margin-top: -210px;
+    }
+  }
+}

@@ -1,0 +1,113 @@
+.sign-in-section {
+  margin: auto;
+  .sign-in-form {
+    margin: auto;
+    .login-btn {
+      min-width: 168px;
+      padding: 8px 65px;
+    }
+  }
+  @media (min-width: 520px) {
+    .sign-in-form {
+      width: 363px;
+    }
+  }
+  @media (min-width: 768px) {
+    margin-top: 60px;
+    margin-bottom: 150px;
+    .login-btn {
+      padding: 5px 65px !important;
+    }
+    .content-wrapper {
+      text-align: center;
+    }
+  }
+}
+.login-as-section {
+  background-color: $background-gray;
+  // position: relative;
+  min-height: 100vh;
+  .content-wrapper {
+    // background: $white;
+    padding: 30px 10px 20px;
+    text-align: center;
+    // position: absolute;
+    // top: 25%;
+    // left: 25%;
+  }
+  .btn-wrapper {
+    margin: 37px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .btn.btn-outline {
+      width: 150px;
+      padding: 10px 0;
+    }
+  }
+  .login-option {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: $white;
+    width: 100%;
+    .user-img {
+      height: 46px;
+      width: 46px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 28px;
+    }
+    .user-name {
+      font-weight: 600;
+    }
+    .lab-name {
+      font-weight:600;
+      font-size: 14px;
+    }
+    .login-as {
+      font-size: 12px;
+      line-height: 1.7;
+    }
+  }
+  .login-option:hover {
+    color: inherit;
+  }
+  .role-name {
+    font-size: 10px;
+    margin-bottom: 15px;
+    text-align: right;
+  }
+  @media (min-width: 768px) {
+    .content-wrapper {
+      margin: 10% 20%;
+    }
+  }
+  @media (min-width: 992px) {
+    .content-wrapper {
+      margin: 1% 35% 0;
+    }
+    .btn-wrapper {
+      .btn.btn-outline {
+        padding: 5px 0;
+      }
+    }
+  }
+}
+.err-msg {
+  background-color: rgba(169, 51, 41, 0.25);
+  color: $red;
+  display: flex;
+  padding: 8px 15px;
+  align-items: center;
+  border-radius: 4px;
+  p {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

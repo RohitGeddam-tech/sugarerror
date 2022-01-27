@@ -1,0 +1,3 @@
+const rupeeSymbol = '₹';
+
+export { rupeeSymbol };

@@ -1,0 +1,16 @@
+.form-control {
+  // height: none;
+  &::-webkit-input-placeholder,
+  &:-moz-placeholder,
+  &:-ms-input-placeholder {
+    color: $primary-gray;
+    font-size: 14px;
+  }
+  &:focus {
+    border-color: #ced4da;
+    box-shadow: none;
+  }
+}
+.text-area {
+  resize: none;
+}

@@ -1,0 +1,9 @@
+.add-package-container {
+    padding: 15px 20px;
+    margin-left: 15%;
+}
+@media (min-width: 768px) {
+  .add-package-container {
+    width: 100%;
+  }
+}

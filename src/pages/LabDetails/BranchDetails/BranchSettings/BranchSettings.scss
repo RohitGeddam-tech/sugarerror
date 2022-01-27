@@ -1,0 +1,170 @@
+//report
+.report-container {
+  .divider {
+    border-bottom: 0.5px solid $secondary-gray;
+  }
+  .report-main {
+    height: 842px;
+    width: 595px;
+    padding: 16px 42px;
+    font-family: 'Helvetica';
+    position: relative;
+    .report-header-custom {
+      padding-bottom: 5px;
+      border-bottom: 1px solid $input-color;
+      min-height: 70px;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      img {
+        width: 100%;
+        height: 118px;
+      }
+      .empty-header {
+        height: 118px;
+      }
+    }
+    .report-header {
+      padding-bottom: 15px;
+      border-bottom: 1px solid $input-color;
+      display: flex !important;
+      align-items: center;
+      align-items: flex-start;
+      .report-logo {
+        max-height: 2cm;
+        max-width: 4cm;
+      }
+      .lab-details {
+        text-align: right;
+        .name {
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 16.1px;
+          color: $light-blue;
+          margin-bottom: 5px;
+        }
+        .address {
+          font-weight: 300;
+          font-size: 10px;
+          line-height: 15px;
+          color:$input-color;
+          margin-bottom: 5px;
+          address{
+            margin-bottom: 0;
+          }
+        }
+        .other-details {
+          font-weight: bold;
+          font-size: 10px;
+          line-height: 1.2;
+        }
+      }
+    }
+    .report-content {
+      min-height: 520px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .watermark {
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 58px;
+        color: $secondary-gray;
+        transform: rotate(-30deg);
+      }
+    }
+    .signature {
+      line-height: 1.8;
+      .signature-img {
+        height: 50px;
+        width: 87px;
+      }
+      .name {
+        font-weight: bold;
+        font-size: 10px;
+      }
+      .qualification {
+        font-weight: 300;
+        font-size: 10px;
+      }
+      .sign-2 {
+        text-align: right;
+      }
+    }
+    .report-footer {
+      min-height: 70px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      img {
+        height: 70px;
+        width: 100%;
+      }
+      .note {
+        border-bottom: 1px solid $input-color;
+        margin: 5px 20px;
+        align-items: baseline;
+        .title {
+          font-size: 12px;
+          font-weight: bold;
+          width: 20%;
+        }
+        .content {
+          font-weight: 300;
+          font-size: 10px;
+          line-height: 11px;
+        }
+      }
+    }
+  }
+  .report-letter-head {
+    .report-letter-head-checkbox {
+      font-weight: normal;
+      font-size: 12px;
+    }
+    .upload-img {
+      margin-top: 10px;
+      .label {
+        font-weight: normal;
+        font-size: 14px;
+        color: $primary-gray;
+      }
+      .img-wrapper {
+        text-align: center;
+        img {
+          height: auto;
+          width: 100%;
+        }
+      }
+    }
+  }
+  .sign-carts {
+    .img-wrapper {
+      img {
+        min-width: 240px;
+        height: 172px;
+      }
+    }
+  }
+}
+.test-package-container {
+  width: 850px;
+}
+.form-content-with-space {
+  width: 60%;
+  margin-left: 100px;
+}
+.branch-setting-nav {
+  width: 100%;
+}
+.empty-image-div {
+  width: inherit;
+  display: flex;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  background: #eeeeee;
+  color: $primary-gray;
+}

@@ -1,0 +1,38 @@
+.add-with-icon {
+  padding: 2px 12px 5px;
+}
+.add-edit-modal {
+  width: 350px !important;
+  .modal-header {
+    position: relative;
+    padding: 20px 35px !important;
+    border-bottom: none;
+    margin-bottom: 10px;
+  }
+  .modal-body {
+    padding: 0 25px !important;
+    border-bottom: none;
+    margin-bottom: 40px;
+  }
+  .modal-footer {
+    padding: 0 0 15px 0 !important;
+  }
+}
+
+.category-master-list,
+.sample-type-master-list {
+  width: 640px;
+  table tbody td {
+    padding: 10px 0 !important;
+  }
+}
+.unit-master-list,
+.sample-type-master-list {
+  width: 800px;
+  .search-input-wrapper {
+    width: 250px;
+  }
+}
+.test-master-list {
+  width: 960px;
+}

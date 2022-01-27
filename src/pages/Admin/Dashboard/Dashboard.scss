@@ -1,0 +1,63 @@
+.dashboard-container {
+  width: 100%;
+  .select-wrapper {
+    min-width: 35%;
+    max-width: 50%;
+  }
+  .status-not_converted {
+    color: $secondary-red;
+  }
+  .status-trial_given {
+    color: $light-blue;
+  }
+  .status-unable_to_contact {
+    color: $primary-gray;
+  }
+  .status-converted {
+    color: $green;
+  }
+  .conversion {
+    cursor: pointer;
+  }
+  .wd-35 {
+    min-width: 35%;
+  }
+  .wd-30 {
+    max-width: 30%;
+  }
+}
+@media (min-width: 768px) {
+  .centered-content {
+    padding: 0 !important;
+  }
+  .paper {
+    margin-bottom: 0;
+    padding: 15px 20px;
+    .content-header {
+      padding: 0px !important;
+      margin-bottom: 10px;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .centered-content {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+}
+@media (max-width: 768px) {
+  .wd-35 {
+    min-width: 98%;
+    margin: 0 auto;
+  }
+  .wd-30 {
+    min-width: 98%;
+    margin: 0 auto;
+  }
+}
+.patient-dashboard-container{
+  .data-card:last-child{
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+}

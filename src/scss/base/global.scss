@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-break: break-word;
+}
+body {
+  font-family: 'SourceSansPro' !important;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  color: $black;
+}
+
+a {
+  color: $black;
+}
+
+.heading {
+  font-family: 'Montserrat';
+}
+
+.black-heading {
+  color: $black;
+  font-family: 'Montserrat';
+  font-size: 35px;
+  line-height: 49px;
+  @media (min-width: 375px) {
+    font-size: 40px;
+  }
+}
+.red-heading {
+  color: $red;
+  font-family: 'Montserrat';
+  font-size: 30px;
+  line-height: 37px;
+}
+.white-heading {
+  color: $white;
+  font-family: 'Montserrat';
+  font-size: 30px;
+  line-height: 37px;
+}
+.red-text {
+  color: $red;
+}
+.blue-text {
+  color: $blue;
+}
+.primary-gray {
+  color: $primary-gray;
+}
+.white-text {
+  color: $white;
+}
+a:hover {
+  color: $red;
+  text-decoration: none;
+}
+.form-group {
+  margin-bottom: 0;
+  // .assistive-text {
+  //   font-size: 10px;
+  //   // height: 25px;
+  //   color: $primary-gray;
+  //   text-align: left;
+  //   padding-bottom: 0;
+  // }
+  // .error-text {
+  //   color: $secondary-red;
+  // }
+}
+.assistive-text {
+  font-size: 10px;
+  // height: 25px;
+  color: $primary-gray;
+  text-align: left;
+  padding-bottom: 0;
+}
+.error-text {
+  color: $secondary-red;
+}
+.background-gray {
+  //select input
+  label.select-placeholder,
+  .select-input__control {
+    background-color: $background-gray !important;
+  }
+  &.date-input label,
+  &.date-input .form-control {
+    background-color: $background-gray !important;
+  }
+  //text input
+  .input-placeholder,
+  input {
+    background-color: $background-gray !important;
+  }
+  &.date-input label,
+  &.date-input .form-control {
+    background-color: $background-gray !important;
+  }
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+.container-fluid {
+  padding: 0;
+}
+.spinner-border {
+  width: 20px;
+  height: 20px;
+  border-width: 2px;
+  animation: spinner-border 0.9s linear infinite;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.divider {
+  border-bottom: 0.5px solid $secondary-gray;
+  margin: 10px 0;
+}
+.bold {
+  font-weight: bold;
+}
+.hover-black:hover {
+  color: $black !important;
+  text-decoration: none;
+}
+.status-inactive,
+.status-delete,
+.delete-action {
+  color: $red;
+}
+.status-active {
+  color: $green;
+}
+.status-in {
+  color: $orange-peel;
+}
+.details {
+  .label {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+.role_lab_admin,
+.role_lab {
+  background-color: $primary-gray;
+  color: $white;
+}
+.role_patient {
+  background-color: $orange-peel;
+  color: $white;
+}
+.role_super_admin,
+.role_assistant_admin {
+  background-color: $black;
+  color: $white;
+}
+.small-search-box {
+  width: 215px;
+}
+.MuiInputBase-input.Mui-disabled{
+  color: #828282 !important;
+  cursor: not-allowed !important;
+}

@@ -1,0 +1,46 @@
+.paper-card {
+  margin-bottom: 15px;
+  .content-header {
+    .select-wrapper {
+      font-size: 16px;
+    }
+  }
+  //When card only contains count
+  &.number-card {
+    padding: 9px !important;
+    .count {
+      font-size: 30px;
+      margin: 25px 0 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .unit {
+      margin-top: 5px;
+      font-family: 'SourceSansPro';
+      font-weight: normal;
+      font-size: 14px;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .paper-card {
+    .content-header {
+      margin-bottom: 22px;
+    }
+    .header {
+      padding: 0px !important;
+    }
+    //When card only contains count
+    &.number-card {
+      padding: 9px !important;
+      .count {
+        height: 75%;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.revenue-per-branch {
+  width: 378px;
+}

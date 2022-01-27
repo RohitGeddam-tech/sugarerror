@@ -1,0 +1,15 @@
+.radio-button {
+  input {
+    display: none;
+  }
+  .radio-checked {
+    content: url('../../../assets/Icons/radio-button.svg');
+    height: 15px;
+    width: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  input:checked + .radio-checked {
+    content: url('../../../assets/Icons/radio-button-checked.svg');
+  }
+}

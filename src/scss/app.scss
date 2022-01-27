@@ -1,0 +1,94 @@
+//Base
+@import './base/variables.scss';
+@import './base/fonts.scss';
+@import './base/global.scss';
+@import './base/icons.scss';
+
+@import '../../node_modules/slick-carousel/slick/slick.css';
+@import '../../node_modules/slick-carousel/slick/slick-theme.css';
+
+// Form inputs
+@import './components/form_inputs.scss';
+@import '../components/FormInputs/TextInput/TextInput.scss';
+@import '../components/FormInputs/Textarea/Textarea.scss';
+@import '../components/FormInputs/SelectInput/SelectInput.scss';
+@import '../components/FormInputs/Checkbox/CheckboxInput.scss';
+@import '../components/FormInputs/RadioButton/RadioButton.scss';
+@import '../components//FormInputs/DateInput/DateInput.scss';
+@import '../components//FormInputs/TagInput/TagInput.scss';
+
+//Components
+@import './components/navigation.scss';
+@import '../components/Navigation/AccountDropdown/AccountDropdown.scss';
+
+@import '../components/Buttons/Button.scss';
+@import '../components/Wrappers/wrappers.scss';
+
+@import '../components/Slick/Slick.scss';
+@import '../components/Modal/Modal.scss';
+@import '../components/Accordion/Accordion.scss';
+@import '../components/NavTab/NavTab.scss';
+@import '../components/Sidebar/Sidebar.scss';
+@import '../components/Stepper/Stepper.scss';
+@import '../components/Table/Table.scss';
+@import '../components/Paginate/Paginate.scss';
+@import '../components/Common/CmsHeader/CmsHeader.scss';
+@import '../components/Common/PackageCard/PackageCard.scss';
+@import '../components/Common/Card/Card.scss';
+@import '../components/Popover/Popover.scss';
+@import '../components/Common/TextEditor/TextEditor.scss';
+
+// Common
+@import '../components/Common/ArticleWrapper/ArticleWrapper.scss';
+@import '../components/Common/Socials/Socials.scss';
+@import '../components/Common/BookDemoModal/BookDemoModal.scss';
+
+// Pages
+@import '../pages/Prelogin/Home/Home.scss';
+@import '../pages/Prelogin/Home/CustomerReview/CustomerReview.scss';
+@import '../pages/Prelogin/Home/BlogSection/BlogSection.scss';
+
+@import '../pages/Prelogin/Contact/Contact.scss';
+@import '../pages/Prelogin/About/About.scss';
+@import '../pages/Login/Login.scss';
+@import '../pages/Prelogin/Register/Register.scss';
+@import '../pages/Prelogin/Register/RegisterForm/RegisterForm.scss';
+@import '../pages/Prelogin/Register/Packages/Packages.scss';
+@import '../pages/Prelogin/FAQ/FAQ.scss';
+@import '../pages/Prelogin/TermsAndConditions/TermsAndConditions.scss';
+@import '../pages/Prelogin/PrivacyPolicy/PrivacyPolicy.scss';
+@import '../pages/Prelogin/SetNewPassword/SetNewPassword.scss';
+
+@import '../pages/Checkout/Checkout.scss';
+@import '../pages/Admin/Admin.scss';
+@import '../pages/Admin/PathLabs/Add/AddPathLab.scss';
+@import '../pages/Admin/PathLabs/List/PathLabsList.scss';
+@import '../pages/Admin/Dashboard/Dashboard.scss';
+@import '../components/Common/Tests/Add/AddTest.scss';
+@import '../components/Common/Tests/List/TestList.scss';
+@import '../pages/Admin/ContactLeads/ContactLeads.scss';
+
+@import '../pages/LabDetails/MainOfficeDetails/MainOfficeDetails.scss';
+@import '../pages/LabDetails/BranchDetails/BranchDetails.scss';
+@import '../pages/LabDetails/BranchDetails/BranchSettings/BranchSettings.scss';
+@import '../pages/LabDetails/PackageDetails/PackageDetails.scss';
+@import '../pages/Pathology/Patients/Patients.scss';
+@import '../pages/Pathology/Dashboard/Dashboard.scss';
+@import '../pages/Patient/ReportBills/ReportBill.scss';
+
+@import '../pages/Admin/Packages/Packages.scss';
+@import '../pages/Admin/Packages/Add/AddPackage.scss';
+
+@import '../pages/Packages/Packages.scss';
+
+@import '../pages/MyProfile/MyProfile.scss';
+@import '../pages/Pathology/Patients/List/PatientList.scss';
+
+//cms admin
+@import './cms.scss';
+
+@import '../components/Footer/Footer.scss';
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,155 @@
+.ReactModal__Overlay {
+  z-index: 9000;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  overflow: hidden;
+  .ReactModal__Content {
+    background: $white;
+    margin: auto;
+    position: absolute;
+    border-radius: 7px;
+    width: 300px;
+    &:focus {
+      outline: none;
+    }
+    .modal-header {
+      border: 0px;
+      padding: 30px 40px 20px;
+    }
+    .modal-body {
+      padding: 0 40px;
+      border: 0px;
+      @media (max-width: 769px) {
+        padding: 0 25px;
+      }
+    }
+    .modal-footer {
+      border: 0px;
+      padding: 20px 40px;
+    }
+    @media (min-width: 375px) {
+      width: 350px;
+    }
+    @media (min-width: 425px) {
+      width: 395px;
+    }
+    @media (min-width: 768px) {
+      width: 502px;
+    }
+  }
+}
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+
+.confirmation-modal {
+  .black-heading {
+    font-size: 30px;
+  }
+}
+
+.table-card-modal {
+  width: 377px !important;
+  @media (max-width: 375px) {
+    width: 350px !important;;
+  }
+  .card-row {
+    margin-bottom: 10px;
+    .label {
+      color: $primary-gray;
+    }
+    .value {
+      color: $input-color;
+      &.main-content {
+        color: $black;
+      }
+    }
+  }
+  .mobile-details-card{
+    .content-header{
+      padding: 0 0 20px;
+    }
+    .modal-body{
+      padding: 0 23px;
+    }
+    .card-row.single-detail{
+      list-style: none;
+      margin-bottom: 19px;
+      text-align: left;
+      .label {
+        color: $secondary-gray;
+        padding-right: 10px;
+        display: inline;
+      }
+      .value {
+        color: #55575c;
+        font-family: "SourceSansPro";
+        display: inline;
+      }
+      .patient-name{
+        font-size: 20px;
+        color: #282c36;
+        font-weight: bold;
+      }
+    }
+    .btn-container{
+      padding: 2px 10px 4px;
+    }
+    .card-buttons{
+      margin-top: 40px;
+    }
+    .action-column{
+      display: none !important;
+    }
+  }
+}
+.add-test-in-set-modal {
+  width: 480px;
+  .selected-test {
+    padding: 0 20px 0 10px;
+    .cost-input .text-input {
+      width: 100px;
+    }
+  }
+}
+.modal-medium {
+  width: 502px !important;
+}
+.modal-large {
+  width: 1034px !important;
+  max-height: 80%;
+  overflow: auto;
+}
+.bg-grey {
+  background-color: $background-gray;
+}
+
+.add-details-form-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .modal-body {
+    flex: 1;
+    overflow: auto;
+    .content {
+      max-height: 390px;
+      padding-top: 60px;
+    }
+  }
+  .modal-footer {
+    margin-top: 20px;
+  }
+}
+.offline-modal{
+  padding: 0;
+  top: 25% !important;
+  .modal-header{
+    padding: 0 !important;
+    margin-top: -18px;
+    margin-right: -15px;
+    justify-content: end;
+  }
+  .modal-body{
+    text-align: center;
+    margin: 20px 0 !important;
+  }
+}

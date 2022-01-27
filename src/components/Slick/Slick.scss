@@ -1,0 +1,72 @@
+.slick-slider {
+  @media (min-width: 768px) {
+    .slick-list {
+      padding: 30px 0px !important;
+    }
+  }
+  .slick-dots {
+    bottom: -48px;
+    li button:before {
+      font-size: 15px;
+      height: 15px;
+      width: 15px;
+      border: 1.1px solid $black;
+      background-color: transparent;
+      color: transparent;
+      border-radius: 50%;
+      opacity: 1;
+      @media (min-width: 768px) {
+        background-color: $white;
+        border-color: $white;
+      }
+    }
+    li.slick-active button:before {
+      background-color: $black;
+      border-color: $black;
+    }
+  }
+  .slick-arrow {
+    &.slick-prev,
+    &.slick-next {
+      top: 109%;
+      bottom: -48px;
+      background: $black;
+      height: 40px;
+      width: 40px;
+      border-radius: 3px;
+      padding-bottom: 6px;
+      z-index: 2;
+      @media (min-width: 768px) {
+        top: 50%;
+      }
+    }
+    &.slick-prev {
+      left: 13px;
+      &:before {
+        content: url('../../assets/Icons/prev-icon.svg');
+        opacity: 1;
+      }
+      @media (min-width: 768px) {
+        left: 22%;
+      }
+    }
+    &.slick-next {
+      right: 13px;
+      &:before {
+        content: url('../../assets/Icons/next-icon.svg');
+        opacity: 1;
+      }
+      @media (min-width: 768px) {
+        right: 22%;
+      }
+    }
+  }
+  .slick-track {
+    height: 310px;
+    width: auto;
+    .slick-slide {
+      height: auto;
+      background-color: transparent;
+    }
+  }
+}

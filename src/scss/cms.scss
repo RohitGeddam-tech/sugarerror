@@ -1,0 +1,95 @@
+.cms-container {
+  background: $background-gray;
+  position: relative;
+  height: 100%;
+  .cms-body {
+    padding: 0px;
+    @media (min-width: 320px) {
+      padding: 10px;
+    }
+    @media (min-width: 425px) {
+      padding: 20px;
+    }
+    @media (min-width: 768px) {
+      padding: 25px;
+    }
+  }
+  .package-card {
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.35);
+    .card-head {
+      padding: 26px 20px 10px;
+    }
+    .card-body {
+      // padding: 37px 8px 36px;
+    }
+  }
+}
+main.cms-container {
+  min-height: 100vh;
+  max-width: 100%;
+}
+.paper {
+  background-color: $white;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  .content-header {
+    padding : 10px 15px 20px 23px;
+    .title {
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+  .select-wrapper {
+    .select-input__value-container,
+    .select-input__menu {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .cms-container {
+    margin-left: 256px;
+  }
+  .paper {
+    padding: 15px 20px 20px;
+    .content-header {
+      padding: 10px 15px;
+      .title {
+        font-family: "SourceSansPro-bold";
+        font-size: 16px;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .cms-container {
+    .cms-header .black-heading{
+      padding-left: 23px;
+    }
+  }
+  .mHide {
+    display: none !important;
+  }
+  .cmsTitle {
+    padding: 0px;
+    margin: 14px 0px 0px 14px !important;
+  }
+  .login-home-wrapper .user-img {
+    margin-right: 6px;
+  }
+  .test-result-card {
+    margin: 10px 10px !important;
+  }
+  .mHide {
+    display: none !important;
+  }
+  .navOverflow {
+    width: 100%;
+    display: block !important;
+    overflow: scroll;
+    .nav {
+      width: 500px;
+    }
+  }
+}

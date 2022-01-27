@@ -1,0 +1,76 @@
+.account-dropdown {
+  padding: 0;
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  .dropdown-menu {
+    width: 297px;
+    padding: 10px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-top: 10px;
+    right: 0;
+    left: unset;
+    border: 0px solid;
+  }
+  .dropdown-toggle.nav-link {
+    padding: 0;
+    &:hover {
+      color: $black;
+    }
+  }
+  .dropdown-toggle::after {
+    display: none;
+  }
+  .small-text {
+    text-transform: uppercase;
+    color: $primary-gray;
+    font-size: 10px;
+  }
+  .user-profile {
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+      color: inherit;
+    }
+    .user-name {
+      font-size: 16px;
+      text-transform: capitalize;
+    }
+  }
+  .login-as {
+    line-height: 1.5;
+    width: 65px;
+    .icon {
+      path {
+        fill: $primary-gray;
+      }
+    }
+  }
+  .account-divider {
+    width: 269px;
+    height: 0.5px;
+    background: $secondary-gray;
+  }
+  .account-more-option {
+    .options {
+      text-decoration: none;
+      padding: 10px 15px;
+      &:hover {
+        color: inherit;
+        background: rgba(85, 87, 92, 0.15);
+        border-radius: 3px;
+      }
+    }
+    .logout-btn {
+      color: $secondary-red;
+    }
+  }
+  .logout-option {
+    padding: 10px 15px;
+    &:hover {
+      background: rgba(223, 116, 106, 0.15);
+      border-radius: 3px;
+    }
+  }
+}

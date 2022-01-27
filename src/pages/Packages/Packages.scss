@@ -1,0 +1,108 @@
+.package-container-content {
+  padding-top: 37px;
+  margin-bottom: 70px;
+  .package-header {
+    .select-input {
+      width: 244px;
+    }
+    .package-nav {
+      border-bottom: 0.5px solid $secondary-gray;
+      .nav-item {
+        cursor: pointer;
+        &.active {
+          color: $red;
+          .nav-border {
+            background: $red;
+            padding: 2px 27px;
+            display: inline-block;
+            width: 100%;
+            border-radius: 16px;
+          }
+        }
+      }
+      .nav-border {
+        padding: 0;
+        margin: -43px 0 -8px;
+      }
+      .nav-link {
+        margin-bottom: -23px;
+      }
+    }
+  }
+  .package-body {
+    @media (min-width: 768px) {
+      .package-card {
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.35);
+        width: 217px;
+        &:not(:last-child) {
+          margin-right: 17px;
+        }
+        .card-body {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+      .custom-package-wrapper {
+        width: 250px;
+        margin: 50px auto;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
+        border-radius: 3px;
+      }
+    }
+    .slick-list {
+    }
+    .slick-slide {
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
+      border-radius: 3px;
+      margin: 24px;
+      @media (min-width: 425px) {
+        width: 273px !important;
+        &.slick-active {
+          margin-left: 24px;
+          &[data-index='0'] {
+            margin-left: 85px;
+          }
+          &[data-index='1'] {
+            margin-left: 155px;
+          }
+          &[data-index='2'] {
+            margin-left: 230px;
+          }
+          &[data-index='3'] {
+            margin-left: 305px;
+          }
+          &[data-index='4'] {
+            margin-left: 380px;
+          }
+        }
+      }
+    }
+  }
+  .custom-package-wrapper {
+    margin: 95px 70px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
+    border-radius: 3px;
+  }
+  .custom-package {
+    .package-name,
+    .package-expiary {
+      color: $blue !important;
+    }
+    .card-head {
+      border-bottom-color: $blue !important;
+    }
+  }
+}
+.gray-package-container {
+  background: #eeeeee;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  .package-nav .nav-item.active {
+    color: $blue !important;
+    font-weight: 700;
+    .nav-border {
+      background: $blue !important;
+    }
+  }
+}

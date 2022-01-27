@@ -1,0 +1,99 @@
+.text-input {
+  position: relative;
+  label {
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    padding: 0;
+    color: $secondary-gray;
+    pointer-events: none;
+    transition: 0.5s;
+    z-index: 10;
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  input.form-control {
+    width: 93%;
+    border: 0.5px solid $secondary-gray;
+    border-radius: 3px !important;
+    font-size: 16px;
+    padding: 8px 12px;
+    height: 45px;
+
+    &::-webkit-input-placeholder,
+    &:-moz-placeholder,
+    &:-ms-input-placeholder {
+      color: $secondary-gray;
+      font-size: 14px;
+    }
+
+    &:focus ~ label,
+    &:not([value='']) ~ label {
+      top: -14px;
+      left: 10px;
+      font-size: 10px;
+      background-color: $white;
+      padding-left: 5px;
+      padding-right: 5px;
+      height: none;
+      color: $primary-gray;
+    }
+
+    &:focus ~ label {
+      color: $blue;
+    }
+
+    &:focus,
+    &:valid ~ label,
+    &:not([value='']) ~ label {
+      outline: none;
+      border-color: $blue;
+      box-shadow: none;
+    }
+
+    &[disabled] {
+      background: $white;
+      color: $primary-gray;
+      cursor: not-allowed;
+    }
+  }
+  &.has-error .form-control {
+    outline: none;
+    border-color: $secondary-red;
+    box-shadow: none;
+  }
+
+  &.has-error .form-control:focus ~ label {
+    color: $secondary-red;
+  }
+  &.has-error .form-control:focus {
+    border-color: $secondary-red;
+  }
+  &.has-error .form-control:not([value='']) ~ label {
+    color: $secondary-red;
+  }
+
+  .input-icon {
+    position: absolute;
+    right: 10px;
+    top: 9px;
+    z-index: 3;
+  }
+  .form-control.search-input {
+    width: 322px;
+  }
+  @media (min-width: 768px) {
+    label {
+      top: 6px;
+      font-size: 14px;
+    }
+    input.form-control {
+      font-size: 14px;
+      padding: 6px 12px;
+      height: 38px;
+    }
+    .input-icon {
+      top: 4px;
+    }
+  }
+}

@@ -1,0 +1,147 @@
+.my-profile {
+  .content-header {
+    display: none !important;
+  }
+  .profile-details {
+    width: 100%;
+    padding: 10px 15px 5px;
+    label {
+      font-size: 16px;
+    }
+  }
+  .divider{
+    margin: 5px 0;
+  }
+  .paper.paper-card{
+    padding-top: 10px;
+  }
+  .profile-details-form {
+    background-color: $background-gray;
+    padding: 10px;
+    margin-bottom: 20px;
+    .display-width{
+      width: 50%;
+    }
+    .forget-pass {
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 15px;
+      color: $blue;
+      text-decoration: underline;
+    }
+    .checkbox-input {
+      label {
+        font-size: 12px;
+      }
+    }
+    .form-control {
+      color: $input-color !important;
+    }
+  }
+  .label {
+    font-weight: 600;
+  }
+  .icon {
+    margin-right: 5px;
+  }
+  .on-desktop-hide {
+    display: none !important;
+  }
+  @media (max-width: 768px) {
+    .edit-icon {
+      font-size: 14px;
+      svg {
+        height: 15px;
+        width: 15px;
+        path {
+          fill: $blue;
+        }
+      }
+    }
+    .on-desktop-hide {
+      display: flex !important;
+    }
+    .on-mobile-hide {
+      display: none;
+    }
+    .profile-details label {
+      font-size: 18px;
+    }
+    .profile-details-form{
+      margin: 15px;
+      .row .form-group:first-child{
+        margin-bottom: 15px;
+      }
+      .display-width{
+        width: 100%;
+      }
+      .forget-pass,.checkbox-input label {
+        font-size: 15px;
+      }
+      .checkbox-input .checkbox-checked{
+        margin-right: 6px !important;
+      }
+      .forget-pass{
+        order: 2;
+      }
+      .btn{
+        font-size: 15px;
+      }
+      .profile-card-btns{
+        justify-content: center !important;
+      }
+      .change-password-div{
+        .form-group{
+          padding-right: 0;
+        }
+        .change-password-footer{
+          padding-right: 0;
+        }
+      }
+    }
+  }
+  @media (min-width: 769px) {
+    width: 640px;
+  }
+}
+.my-profile-modal {
+  .modal-header {
+    padding: 0 30px !important;
+    .black-heading {
+      font-size: 16px !important;
+    }
+  }
+  .modal-body {
+    padding: 0 25px !important;
+    .resend-otp {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 18px;
+      .blue-link {
+        display: inline;
+        color: $blue;
+      }
+    }
+    .modal-msg {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 18px;
+    }
+    .modal-info {
+      font-size: 12px;
+      line-height: 15px;
+      margin: 0 23px;
+    }
+  }
+  .modal-footer {
+    padding: 0 30px 20px 30px !important;
+  }
+}
+.update-details-modal{
+  @media (max-width: 768px) {
+    .form-group {
+      margin-right: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+}

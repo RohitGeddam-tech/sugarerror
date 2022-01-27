@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+  .clip-image-wrapper {
+    background: url('../../../assets/images/Packages/packages-bg-img.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    min-height: 700px;
+  }
+}
+
+.package-section,
+.register-section {
+  .contact-us-section {
+    background-color: $black;
+    padding: 35px 0;
+    .section-top-hr {
+      background: $white;
+    }
+    .btn-wrapper {
+      margin-top: 30px;
+    }
+  }
+}

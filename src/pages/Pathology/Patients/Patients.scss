@@ -1,0 +1,134 @@
+.tests {
+  padding: 0 60px 0 10px;
+}
+.edit-patient-popover {
+  min-width: 160px !important;
+  .small-text {
+    font-size: 14px;
+    color: $black;
+    text-transform: capitalize;
+    &.status-delete {
+      color: $red;
+    }
+  }
+}
+
+.patient-status-btn {
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 3px;
+  padding: 1px 0;
+  width: 120px;
+  cursor: default !important;
+  &.under_testing {
+    border: 1px solid $yellow;
+    color: $yellow;
+  }
+  &.testing_done {
+    border: 1px solid $dark-blue;
+    color: $dark-blue;
+  }
+  &.canceled {
+    border: 1px solid $red;
+    color: $red;
+  }
+  &.closed {
+    border: 1px solid $yellow;
+    color: $yellow;
+  }
+  &.report_sent {
+    border: 1px solid $green;
+    color: $green;
+  }
+  &.report_signed {
+    border: 1px solid $yellow;
+    color: $yellow;
+  }
+  &.report_generated {
+    border: 1px solid $blue;
+    color: $blue;
+  }
+  &.sample_taken {
+    border: 1px solid $yellow;
+    color: $yellow;
+  }
+  &.created {
+    border: 1px solid $yellow;
+    color: $yellow;
+  }
+  &:hover {
+    background-color: white;
+  }
+}
+.update-patient-form {
+  .cross-icon {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: -20px;
+    cursor: pointer;
+  }
+  .download-report svg path{
+    fill : #282C36;
+  }
+}
+.test-result-card {
+  margin: 10px 40px;
+  .test-result-table {
+    margin-bottom: 30px;
+    width: 100%;
+    tr{
+      vertical-align: top;
+    }
+    td {
+      padding: 10px 10px 10px 0;
+      white-space: pre-wrap;
+    }
+  }
+  .details {
+    margin-bottom: 15px;
+    margin-right: 50px;
+    display: flex;
+    .label {
+      min-width: 100px;
+      text-align: right;
+      margin-right: 10px !important;
+    }
+    .value {
+      width: 70%;
+      white-space: pre-wrap;
+    }
+  }
+}
+.test-package-accordion {
+  list-style-type: none;
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  .sub-tests {
+    width: 270px;
+    padding: 5px 2px 2px 16px;
+  }
+}
+
+.modal-fixedHeader {
+  position: fixed;
+  max-width: 100%;
+  margin: 0 auto;
+  width: 100%;
+  top: 0;
+  left: 50%;
+  z-index: 1;
+  background: #fff;
+  transform: translate(-50%, 10%);
+  .modal-fixedinnerHeader {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.fr {
+  float: right;
+  margin-bottom: 30px;
+}
+

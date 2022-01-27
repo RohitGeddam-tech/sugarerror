@@ -1,0 +1,39 @@
+// Typography
+$base-font-size: 16px;
+$base-line-height: 25px;
+
+@font-face {
+  font-family: "SourceSansPro";
+  font-style: normal;
+  src: url("../../assets/fonts/SourceSansPro/SourceSansPro-Regular.ttf")
+    format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SourceSansPro-bold";
+  font-style: normal;
+  src: url("../../assets/fonts/SourceSansPro/SourceSansPro-SemiBold.ttf")
+    format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  src: url("../../assets/fonts/Montserrat/Montserrat-Bold.ttf")
+    format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat-bold";
+  font-style: bold;
+  src: url("../../assets/fonts/Montserrat/Montserrat-SemiBold.ttf")
+    format("truetype");
+  font-display: swap;
+}
+
+.semi-bold {
+  font-family: "SourceSansPro-bold";
+}

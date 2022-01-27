@@ -1,0 +1,43 @@
+.section-wrapper {
+  padding: 42px 0 50px;
+  .text-content-wrapper {
+    .content-info {
+      font-size: 20px;
+    }
+    .content-btn {
+    }
+  }
+  .section-top-hr {
+    width: 90px;
+    height: 4px;
+    background: $red;
+    border-radius: 2px;
+    margin: 0 auto 10px;
+  }
+
+  // Small devices (landscape phones, 576px)
+  @media (max-width: 991px) {
+    .image-content-wrapper,
+    .text-content-wrapper {
+      text-align: center;
+    }
+    .on-mobile-hide {
+      display: none;
+    }
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+  }
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+    .section-top-hr {
+      margin: 0 0 18px;
+    }
+  }
+
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+  }
+}

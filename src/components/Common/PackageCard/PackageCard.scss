@@ -1,0 +1,87 @@
+.package-card {
+  color: $primary-gray;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.35);
+  .card-head {
+    padding: 10px;
+    border-bottom: 1px solid $black;
+    p {
+      margin: 10px 0;
+    }
+    .package-name {
+      color: $black;
+    }
+    .package-expiary {
+      color: $black;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .package-patients {
+      font-size: 20px;
+      p {
+        margin-bottom: 0;
+      }
+      .i-btn-icon {
+        margin-top: 6px;
+      }
+    }
+  }
+  .package-status {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    color: $green;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .card-body {
+    // padding: 47px 28px 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    p {
+      margin-bottom: 0;
+      text-transform: capitalize;
+      padding: 0 12px;
+    }
+  }
+  .card-foot {
+    padding: 0 30px 23px;
+  }
+  // &.active {
+  //   .package-name,
+  //   .package-expiary {
+  //     color: $secondary-red;
+  //   }
+  //   .card-head {
+  //     border-bottom-color: $secondary-red;
+  //   }
+  //   .btn-container {
+  //     background: $red;
+  //     &:hover {
+  //       background-color: lighten($red, 20%);
+  //     }
+  //   }
+  // }
+  .delete-btn {
+    padding: 5px 12px;
+  }
+}
+.red-content {
+  .card-head {
+    .package-name,
+    .package-expiary {
+      color: $secondary-red;
+    }
+  }
+  .btn-container {
+    background: $red;
+    &:hover {
+      background-color: lighten($red, 20%);
+    }
+  }
+  .card-head {
+    border-bottom-color: $secondary-red !important;
+  }
+}

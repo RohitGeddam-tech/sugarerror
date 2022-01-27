@@ -1,0 +1,27 @@
+$black: #282c36;
+$white: #ffffff;
+
+$gray-heading-dark: #565656;
+$background-gray: #ebebeb;
+
+$primary-gray: #828282;
+$secondary-gray: #b7b7b7;
+$input-color: #55575c;
+
+$light-blue: #4c8bf5;
+$blue: #3562c5;
+$dark-blue: #66a2f7;
+$red: #d44638;
+$secondary-red: #df746a;
+
+$peech: #d44638bf;
+$orange-peel: #ffa000;
+$green: #85c33d;
+
+$yellow: #e6a935;
+$placeholder-color: #b7b7b7;
+
+//Functions
+@function get-path-to-assets($assetPath) {
+  @return $assetPath;
+}

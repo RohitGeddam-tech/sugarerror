@@ -1,0 +1,126 @@
+.accordion {
+  .down-arrow {
+    transform: rotate(90deg);
+    margin: 0;
+    margin-right: 10px;
+  }
+  .collapse-btn {
+    text-align: left;
+    line-height: 23px;
+    color: $red;
+    border: 0;
+    padding: 13px 12px;
+    width: 100%;
+    @media (min-width: 768px) {
+      padding: 23px 20px;
+    }
+    .down-arrow {
+      transform: rotate(-90deg);
+      margin: 0 10px 0 20px;
+      path {
+        fill: $red;
+      }
+    }
+    &.collapsed {
+      font-weight: normal;
+      color: $black;
+      .down-arrow {
+        transform: rotate(90deg);
+        path {
+          fill: $primary-gray;
+        }
+      }
+    }
+  }
+  .card {
+    border-radius: 0;
+    text-align: left;
+    border: none;
+    .card-header {
+      background: transparent;
+      padding: 0;
+      border: 0;
+      // border-bottom: 2px solid #eeeeee !important;
+    }
+    &:first-child .card-header {
+      // border-top: 1px solid #eeeeee !important;
+    }
+    .card-body {
+      line-height: 20px;
+      padding: 12px 12px 22px 8px;
+      // background: #eeeeee;
+    }
+  }
+}
+
+.test-accordion {
+  .down-arrow {
+    transform: rotate(90deg);
+    margin: 0;
+    margin-right: 10px;
+  }
+  .sub-tests p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .collapse-btn {
+    text-align: left;
+    line-height: 23px;
+    // color: $red;
+    border: 0;
+    padding: 13px 12px;
+    background: #eeeeee;
+    font-weight: normal;
+    width: 100%;
+    @media (min-width: 768px) {
+      padding: 10px;
+    }
+    .down-arrow {
+      transform: rotate(-90deg);
+      margin: 0 10px 0 20px;
+    }
+    &.collapsed {
+      font-weight: normal;
+      color: $black;
+      .down-arrow {
+        transform: rotate(90deg);
+        path {
+          fill: $primary-gray;
+        }
+      }
+    }
+  }
+  .card {
+    border-radius: 3px;
+    text-align: left;
+    border: 0.5px solid $secondary-gray;
+    .card-header {
+      background: transparent;
+      padding: 0;
+      border: 0;
+    }
+    .card-body {
+      line-height: 20px;
+      padding: 12px 12px 22px 8px;
+      // background: #eeeeee;
+    }
+  }
+}
+.test-result-acc {
+  .acc-btn {
+    padding: 10px;
+  }
+  .group-test-row td:first-child{
+    padding-left: 15px;
+  }
+}
+.accordion-content {
+  background: #eeeeee;
+}
+.report-sent-success {
+  background: rgba(133, 195, 61, 0.5);
+  .collapse-btn {
+    background: transparent;
+  }
+}

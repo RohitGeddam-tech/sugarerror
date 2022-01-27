@@ -1,0 +1,298 @@
+.date-input-wrapper {
+  .date-input {
+    position: relative;
+    .react-datepicker-wrapper {
+      width: 100%;
+    }
+    label {
+      position: absolute;
+      top: 9px;
+      left: 10px;
+      padding: 0;
+      color: $secondary-gray;
+      pointer-events: none;
+      transition: 0.5s;
+      z-index: 10;
+      margin-bottom: 0;
+      font-size: 18px;
+    }
+    input.form-control {
+      width: 100%;
+      border: 0.5px solid $secondary-gray;
+      border-radius: 3px !important;
+      font-size: 16px;
+      padding: 8px 12px;
+      height: 45px;
+
+      &::-webkit-input-placeholder,
+      &:-moz-placeholder,
+      &:-ms-input-placeholder {
+        color: $secondary-gray;
+        font-size: 14px;
+      }
+
+      &:focus {
+        outline: none;
+        border-color: $blue;
+        box-shadow: none;
+      }
+      &:disabled {
+        background-color: white;
+        color: #828282;
+        cursor: not-allowed;
+      }
+    }
+    &.has-error .form-control {
+      outline: none;
+      border-color: $secondary-red;
+      box-shadow: none;
+    }
+
+    &.has-error .form-control:focus {
+      border-color: $secondary-red;
+    }
+
+    .input-icon {
+      position: absolute;
+      right: 10px;
+      top: 9px;
+    }
+    .form-control.search-input {
+      width: 322px;
+    }
+    .label-has-value {
+      top: -14px;
+      left: 10px;
+      font-size: 10px;
+      background-color: $white;
+      padding-left: 5px;
+      padding-right: 5px;
+      height: none;
+      color: $primary-gray;
+    }
+    .label-focused {
+      color: $blue;
+    }
+    .label-has-error {
+      color: $secondary-red !important;
+    }
+    @media (min-width: 768px) {
+      label {
+        top: 6px;
+        font-size: 14px;
+      }
+      input.form-control {
+        font-size: 14px;
+        padding: 6px 12px;
+        height: 38px;
+      }
+      .input-icon {
+        top: 4px;
+      }
+    }
+  }
+}
+.react-datepicker-popper {
+  z-index: 1000;
+}
+.hidden {
+  display: none !important;
+}
+
+.MuiFormControl-root {
+  width: 100%;
+  &:focus {
+    outline: none;
+  }
+
+  .MuiInputBase-input {
+    width: 100%;
+    border-radius: 3px !important;
+    font-size: 14px;
+    padding: 0px 12px;
+    height: 38px;
+    font-weight: 400;
+    line-height: 01;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    cursor: pointer;
+    font-family: 'SourceSansPro';
+  }
+}
+
+.MuiPopover-paper {
+  padding-bottom: 10px;
+  max-width: 325px !important;
+  width: 100%;
+  max-height: 415px !important;
+}
+
+.MuiInputLabel-outlined {
+  position: absolute;
+  left: -5px;
+  padding: 0;
+  color: #b7b7b7;
+  pointer-events: none;
+  transition: 0.5s;
+  z-index: 10;
+  margin-bottom: 0;
+  top: -8px;
+  font-size: 13px;
+}
+.MuiInputLabel-outlined.MuiInputLabel-shrink {
+  transform: translate(16px, 0px) scale(0.75) !important;
+  color: #828282 !important;
+  font-weight: normal !important;
+}
+
+.MuiFormLabel-root {
+  color: #b7b7b7 !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  font-family: 'SourceSansPro' !important;
+  top: -8px !important;
+}
+
+.MuiOutlinedInput-root {
+  border-radius: 3px !important;
+  &:hover .MuiOutlinedInput-notchedOutline {
+    border: 0.5px solid #b7b7b7 !important;
+  }
+  &:focus {
+    outline: none;
+  }
+  &.Mui-error .MuiOutlinedInput-notchedOutline {
+    border-color: #df746a !important;
+  }
+  &.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: $blue !important; 
+    border-width: 1.5px !important;
+  }
+}
+
+.daterangepicker {
+  .calendar-table {
+    th,
+    td {
+      cursor: pointer;
+      width: 35px;
+      height: 35px;
+      margin: 0 2px;
+      padding: 0;
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: #282c36;
+    }
+    td.active {
+      background-color: $blue;
+      border-radius: 50%;
+      color: #ffffff;
+    }
+    th {
+      color: #828282;
+    }
+    .month {
+      font-size: 14px;
+      font-weight: bold;
+      color: #282c36;
+    }
+  }
+  .ranges {
+    margin-top: 0 !important;
+    ul {
+      padding: 6px;
+      li {
+        font-size: 0.75rem;
+        color: #55575c;
+        &.active {
+          background-color: $blue;
+          background: rgba(166, 219, 252, 0.3);
+          border-radius: 3px;
+          color: $blue;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  .drp-buttons {
+    .applyBtn {
+      background-color: $blue;
+      border-color: $blue;
+      font-weight: 700;
+      font-size: 14px;
+    }
+    .cancelBtn {
+      font-weight: 700;
+      font-size: 14px;
+      color: #282c36;
+    }
+  }
+  .drp-selected {
+    font-size: 14px;
+    color: #282c36;
+    font-weight: bold;
+  }
+}
+
+.customDatePicker-innerwrapper {
+  background: #fff;
+  padding: 5.5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  border: 0.5px solid #b7b7b7;
+  cursor: pointer;
+  width: 100%;
+  .range-placeholder {
+    color: $secondary-gray;
+    font-size: 14px;
+  }
+  .range-value {
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  label {
+    position: absolute;
+    right: 25px;
+    top: 5px;
+  }
+}
+
+.MuiDialog-root {
+  z-index: 99999 !important;
+}
+
+.MuiFormHelperText-root.Mui-error {
+  color: #df746a !important;
+  font-size: 10px;
+}
+.MuiFormHelperText-contained.Mui-error {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.patient-calenderIcon {
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  transform: translate(-50%, -50%);
+  &.statistics-calenderIcon {
+    right: 5px;
+    top: 30%;
+  }
+}
+.content-header {
+  position: relative;
+}
+
+.MuiPickersToolbar-toolbar,
+.MuiPickersDay-daySelected {
+  background-color: $blue !important;
+}
+
+.MuiTypography-colorPrimary,
+.MuiButton-textPrimary,
+.MuiPickersMonth-monthSelected {
+  color: $blue !important;
+}

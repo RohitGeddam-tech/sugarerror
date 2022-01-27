@@ -1,0 +1,162 @@
+.select-control-input {
+  .select-input__menu-list {
+    max-height: 215px !important;
+  }
+  position: relative;
+  .css-1okebmr-indicatorSeparator,
+  .select-input__clear-indicator {
+    display: none !important;
+  }
+
+  label {
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    padding: 0;
+    color: $secondary-gray;
+    pointer-events: none;
+    transition: 0.5s;
+    z-index: 10;
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+  .select-input {
+    width: 100%;
+    border-radius: 3px !important;
+    font-size: 16px;
+    padding: 0;
+
+    .select-input__menu {
+      z-index: 100;
+    }
+
+    .select-input__control {
+      // background-color: transparent !important;
+      border: 0.5px solid $secondary-gray;
+      border-radius: 3px;
+      box-shadow: none;
+      min-height: 45px;
+      max-height: auto;
+    }
+
+    &::-webkit-input-placeholder,
+    &:-moz-placeholder,
+    &:-ms-input-placeholder {
+      color: $secondary-gray;
+      font-size: 14px;
+    }
+
+    &:focus ~ label {
+      color: $blue;
+    }
+
+    &.has-error:focus ~ label {
+      color: $secondary-red;
+    }
+  }
+  &.has-value .select-input ~ label {
+    top: -14px;
+    left: 10px;
+    font-size: 10px;
+    background-color: $white;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: none;
+    color: $primary-gray;
+    outline: none;
+    border-color: $blue;
+    box-shadow: none;
+  }
+  &.has-value .select-input:focus ~ label {
+    color: $blue;
+  }
+  &.has-error {
+    .select-input__control {
+      border-color: $secondary-red !important;
+    }
+  }
+  &.select-focused .select-input__control {
+    border-color: $blue !important;
+  }
+  &.select-focused label {
+    top: -13px;
+    left: 10px;
+    font-size: 10px;
+    background-color: $white;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: none;
+    color: $blue !important;
+  }
+  &.hide-placeholder.has-value,
+  &.hide-placeholder.select-focused {
+    label.select-placeholder {
+      display: none;
+    }
+  }
+  &.has-error.has-value,
+  &.has-error.select-focused {
+    label.select-placeholder {
+      color: $secondary-red !important;
+    }
+    .select-input__control {
+      border-color: $secondary-red !important;
+    }
+  }
+  @media (min-width: 768px) {
+    label {
+      top: 6px;
+      font-size: 14px;
+    }
+    .select-input {
+      font-size: 14px;
+      // padding: 6px 12px;
+      .select-input__control {
+        min-height: 35px;
+        max-height: auto;
+      }
+    }
+  }
+  // Multivalue Select Input
+  .select-input__multi-value {
+    background: #eeeeee;
+    .select-input__multi-value__label,
+    .select-input__multi-value__remove svg path {
+      color: $blue;
+      padding: 2px 3px;
+    }
+  }
+}
+.sub-menu-wrapper {
+  position: absolute;
+  left: 90%;
+  z-index: 1000;
+  background: white;
+  border: 1px solid;
+}
+.select-input__control--is-disabled {
+  background-color: white !important;
+}
+
+.cursor-notAllowed {
+  cursor: not-allowed;
+}
+
+.select-input__menu-list {
+  padding: 4px;
+  .select-input__option--is-selected {
+    color: #3562c5 !important;
+    background: rgba(166, 219, 252, 0.3) !important;
+    border-radius: 3px;
+    font-weight: 600 !important;
+  }
+  .select-input__option {
+    border-radius: 3px;
+    &:not(:last-child) {
+      margin-bottom: 4px;
+    }
+    &:hover {
+      background: rgba(85, 87, 92, 0.15);
+    }
+  }
+}

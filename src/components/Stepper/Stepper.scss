@@ -1,0 +1,60 @@
+.stepper-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 20px;
+  .step {
+    text-align: center;
+    color: $light-blue;
+    background-color: transparent;
+  }
+  .step-number {
+    position: relative;
+    > .number {
+      padding: 7px 15px;
+      border-radius: 50%;
+      border: 1px solid $light-blue;
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
+  .show-connector::after {
+    content: "";
+    background-color: $light-blue;
+    height: 0.5px;
+    width: calc(100% - 40px);
+    position: absolute;
+    top: 50%;
+    left: calc(50% + 20px);
+  }
+  .step-name {
+    margin: 10px auto;
+    width: 80%;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .active-step {
+    .number {
+      background-color: $blue;
+      border: $blue;
+      color: $white;
+    }
+    .step-name {
+      color: $blue;
+      font-family: "SourceSansPro-bold";
+    }
+  }
+  .completed-step {
+    .number {
+      background-color: $light-blue;
+      color: $white;
+    }
+    .show-connector::after {
+      height: 2px;
+    }
+  }
+  .step-name {
+    color: $light-blue;
+  }
+}

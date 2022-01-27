@@ -1,0 +1,180 @@
+.edit-lead-container {
+  width: 652px;
+  margin-left: 100px;
+}
+.pl-0 {
+  padding-left: 0;
+}
+.contact-lead-container {
+  .status-unable_to_contact {
+    color: $primary-gray;
+  }
+  .status-ongoing {
+    color: $yellow;
+  }
+  .status-pending {
+    color: $red;
+  }
+  .status-closed {
+    color: $green;
+  }
+}
+
+.filter_container {
+  position: absolute;
+    /* display: block; */
+    /* top: 214.109px; */
+    left: 647px;
+    right: auto;
+    width: 300px;
+    height: auto;
+    max-height: 200px;
+    overflow: scroll;
+    top: 85px;
+    z-index: 1;
+    left: 375px;
+    box-shadow: 1px 1px 0px 0.5px lightgrey;
+    background: #ffffff;
+    border: 0.5px solid #b7b7b7;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 10px;
+}
+.filter_container::-webkit-scrollbar {
+  display: none;
+}
+.filter_container_att::-webkit-scrollbar {
+  display: none;
+}
+.filter_container_type::-webkit-scrollbar {
+  display: none;
+}
+.filter_container_status {
+  position: absolute;
+  width: 300px;
+  top: 100px;
+  height: auto;
+  max-height: 200px;
+  overflow: scroll;
+  right: auto;
+  z-index: 1;
+  left: 480px;
+  box-shadow: 1px 1px 0px 0.5px lightgrey;
+  background: #ffffff;
+  border: 0.5px solid #b7b7b7;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+
+.filter_container_type {
+  position: absolute;
+    /* display: block; */
+    /* top: 214.109px; */
+    left: 647px;
+    right: auto;
+    width: 300px;
+    top: 85px;
+    z-index: 1;
+    left: 375px;
+    box-shadow: 1px 1px 0px 0.5px lightgrey;
+    background: #ffffff;
+    border: 0.5px solid #b7b7b7;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+
+.filter_container_att {
+  position: absolute;
+    /* display: block; */
+    /* top: 214.109px; */
+    left: 647px;
+    right: auto;
+    width: 300px;
+    height: auto;
+    max-height: 200px;
+    overflow: scroll;
+    top: 85px;
+    z-index: 1;
+    left: 375px;
+    box-shadow: 1px 1px 0px 0.5px lightgrey;
+    background: #ffffff;
+    border: 0.5px solid #b7b7b7;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.filter_container_status label {
+  font-size: 14px;
+  padding-left: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.filter_container_status label input {
+  margin-right: 10px;
+}
+.filter_container_status span {
+  font-size: 14px;
+  cursor: pointer;
+}
+.filter_container_type label input {
+  margin-right: 10px;
+}
+.filter_container_type span {
+  font-size: 14px;
+  cursor: pointer;
+}
+.filter_container_att label input {
+  margin-right: 10px;
+}
+.filter_container_att span {
+  font-size: 14px;
+  cursor: pointer;
+}
+.filter_container label {
+  font-size: 14px;
+  padding-left: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.filter_container_type label {
+  font-size: 14px;
+  padding-left: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.filter_container_att label {
+  font-size: 14px;
+  padding-left: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.filter_container label input {
+  margin-right: 10px;
+}
+.filter_container span {
+  font-size: 14px;
+  cursor: pointer;
+}
+.filter_subcontainer_reff {
+  max-height: 150px;
+  overflow: scroll;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.filter_subcontainer_reff label {
+  font-size: 14px;
+  padding-left: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}

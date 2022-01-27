@@ -1,0 +1,84 @@
+footer {
+  background-color: $background-gray;
+  padding: 29px 15px 26px;
+  text-align: center;
+  .text-input input.form-control {
+    &:focus {
+      background-color: $background-gray;
+    }
+    &:focus ~ label,
+    &:not([value='']) ~ label {
+      background-color: $background-gray;
+    }
+  }
+  .footer-contact {
+    border-bottom: 1px solid $secondary-gray;
+  }
+  .call-toll-free-btn{
+    font-size: 16px;
+    font-weight: normal;
+    border-radius: 10px;
+    padding: 8px 15px;
+    span{
+      color:$white;
+    }
+    svg {
+      width: 14px;
+      margin-left: 10px;
+      path{
+        fill: $white;
+      }
+    }
+  }
+  @media (min-width: 786px) {
+    text-align: left;
+    .footer-social-links {
+      .social-icon {
+        height: 20px;
+        width: 20px;
+      }
+    }
+    .footer-contact {
+      padding-left: 20px;
+      .contact-text {
+        margin-left: 40px;
+      }
+      .contact-no{
+        color: $red;
+      }
+    }
+    .on-desktop-hide {
+      display: none;
+    }
+    .call-toll-free-btn{
+      display: none;
+    }
+  }
+  .mobile-footer-nav {
+    font-size: 20px;
+  }
+  @media (max-width: 787px) {
+    .footer-nav-links {
+      display: none !important;
+    }
+    .footer-contact{
+      border-top: 1px solid $secondary-gray;
+    }
+    .phone-icon-wrapper{
+      display: none;
+    }
+    .contact-text{
+      width: 300px;
+    }
+  }
+
+  .copyright-section {
+    color: $primary-gray;
+    @media (min-width: 1024px) {
+      border-top: 1px solid $secondary-gray;
+      padding-top: 15px;
+      width: 750px;
+      margin: 0 auto;
+    }
+  }
+}

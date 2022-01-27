@@ -1,0 +1,38 @@
+.checkout-container {
+  height: calc(100vh - 50px);
+  background-color: $background-gray;
+  display: flex;
+  align-items: center;
+
+  .checkout-wrapper {
+    width: 723px;
+    margin: auto;
+    text-align: center;
+
+    .checkout-big-text {
+      font-size: 30px;
+    }
+    .selected-package {
+      .package-name {
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .package-validity {
+        font-size: 14px;
+        font-weight: normal;
+        color: $primary-gray;
+        margin-bottom: 18px;
+      }
+    }
+    .discount {
+      font-size: 16px;
+      font-weight: 600;
+      color: $green;
+      margin-bottom: 25px;
+    }
+    .final-price {
+      border-top: 1px solid $secondary-gray;
+      padding-top: 20px;
+    }
+  }
+}

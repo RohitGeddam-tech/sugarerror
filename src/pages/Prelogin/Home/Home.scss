@@ -1,0 +1,115 @@
+.landing-section {
+  background: $background-gray;
+  padding: 35px 0 53px;
+  position: relative;
+  .section-content-wrapper {
+    align-items: center;
+  }
+  .landing-content-info {
+    font-size: 18px;
+  }
+  .landing-section-img {
+    width: 378px;
+  }
+  @media (min-width: 375px) {
+    .landing-content-info {
+      font-size: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .landing-content-heading {
+      font-size: 30px;
+      line-height: 40px;
+    }
+    .landing-content-info {
+      font-size: 18px;
+    }
+  }
+
+  @media (min-width: 767px) {
+    .landing-section-img {
+      width: 100%;
+    }
+  }
+  @media (min-width: 992px) {
+    .landing-section-img {
+      width: 100%;
+      margin: 30px auto 30px;
+    }
+    .left-landing-section {
+      margin-right: 54px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .landing-section-img {
+      width: 100%;
+    }
+  }
+}
+
+.how-sugarlogger-work-section {
+  // Medium devices (tablets, 768px and up)
+  .image-content-wrapper {
+    .section-img {
+      width: 285px;
+      @media (min-width: 375px) {
+        width: 337px;
+      }
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .content-heading {
+      font-size: 25px;
+      line-height: 40px;
+    }
+    .content-info {
+      font-size: 18px;
+      margin-bottom: 22px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    padding-left: 12px;
+    .image-content-wrapper {
+      .section-img {
+        width: 483px;
+        height: 263px;
+      }
+    }
+    .text-content-wrapper {
+      margin-top: 22px;
+    }
+  }
+}
+
+.why-sugarlogger-section {
+  // Medium devices (tablets, 768px and up)
+  padding-top: 60px;
+  .image-content-wrapper {
+    .section-img {
+      width: 265px;
+    }
+  }
+  @media (max-width: 991px) {
+    .on-mobile-hide {
+      display: none;
+    }
+  }
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+    padding-left: 157px;
+    padding-right: 137px;
+    .text-content-wrapper {
+      padding-right: 127px;
+    }
+    .image-content-wrapper {
+      .section-img {
+        width: 275px;
+        height: 500px;
+      }
+    }
+    .section-top-hr {
+      margin: 0 0 18px;
+    }
+  }
+}
