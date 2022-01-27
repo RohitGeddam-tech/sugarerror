@@ -94,8 +94,8 @@
     "static/js/44.9957d2e8.chunk.js": "/sugarerror/static/js/44.9957d2e8.chunk.js",
     "static/js/44.9957d2e8.chunk.js.map": "/sugarerror/static/js/44.9957d2e8.chunk.js.map",
     "main.css": "/sugarerror/static/css/main.23aa6c0d.chunk.css",
-    "main.js": "/sugarerror/static/js/main.5d6c86b6.chunk.js",
-    "main.js.map": "/sugarerror/static/js/main.5d6c86b6.chunk.js.map",
+    "main.js": "/sugarerror/static/js/main.4663dfec.chunk.js",
+    "main.js.map": "/sugarerror/static/js/main.4663dfec.chunk.js.map",
     "runtime-main.js": "/sugarerror/static/js/runtime-main.b2fbf175.js",
     "runtime-main.js.map": "/sugarerror/static/js/runtime-main.b2fbf175.js.map",
     "static/js/47.8a6097ed.chunk.js": "/sugarerror/static/js/47.8a6097ed.chunk.js",
@@ -150,7 +150,7 @@
     "static/js/71.66b7c31c.chunk.js": "/sugarerror/static/js/71.66b7c31c.chunk.js",
     "static/js/71.66b7c31c.chunk.js.map": "/sugarerror/static/js/71.66b7c31c.chunk.js.map",
     "index.html": "/sugarerror/index.html",
-    "precache-manifest.55a0156e046a91357f7cc330e0f4fb61.js": "/sugarerror/precache-manifest.55a0156e046a91357f7cc330e0f4fb61.js",
+    "precache-manifest.e2df5d9c428c3617e24077fcb4872549.js": "/sugarerror/precache-manifest.e2df5d9c428c3617e24077fcb4872549.js",
     "service-worker.js": "/sugarerror/service-worker.js",
     "static/css/1.53cf860f.chunk.css.map": "/sugarerror/static/css/1.53cf860f.chunk.css.map",
     "static/css/27.4e050524.chunk.css.map": "/sugarerror/static/css/27.4e050524.chunk.css.map",
@@ -200,6 +200,6 @@
     "static/css/48.16585462.chunk.css",
     "static/js/48.04310740.chunk.js",
     "static/css/main.23aa6c0d.chunk.css",
-    "static/js/main.5d6c86b6.chunk.js"
+    "static/js/main.4663dfec.chunk.js"
   ]
 }

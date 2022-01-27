@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sugarerror/precache-manifest.55a0156e046a91357f7cc330e0f4fb61.js"
+  "/sugarerror/precache-manifest.e2df5d9c428c3617e24077fcb4872549.js"
 );
 
 self.addEventListener('message', (event) => {
