@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/Patient/TrackingChart/TrackingChart.jsx"],"names":["TrackingChart"],"mappings":"sIAAA,2BAMeA,UAJO,WACpB,OAAO","file":"static/js/71.66b7c31c.chunk.js","sourcesContent":["import React from 'react';\n\nconst TrackingChart = () => {\n  return <div>TrackingChart</div>;\n};\n\nexport default TrackingChart;\n"],"sourceRoot":""}

@@ -1,0 +1,2 @@
+(this["webpackJsonpsugarlogger-frontend"]=this["webpackJsonpsugarlogger-frontend"]||[]).push([[71],{1524:function(n,r,e){"use strict";e.r(r);var t=e(0),a=e.n(t);r.default=function(){return a.a.createElement("div",null,"TrackingChart")}}}]);
+//# sourceMappingURL=71.66b7c31c.chunk.js.map
