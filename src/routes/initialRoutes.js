@@ -9,7 +9,7 @@
 // import TermsAndConditions from '../pages/Prelogin/TermsAndConditions/TermsAndConditions';
 // import PrivacyPolicy from '../pages/Prelogin/PrivacyPolicy/PrivacyPolicy';
 
-import loadable from '@loadable/component'
+import loadable from '@loadable/component';
 
 const Login = loadable(() => import('../pages/Login/Login'));
 const Contact = loadable(() => import('../pages/Prelogin/Contact/Contact'));
@@ -63,7 +63,7 @@ const initialRoutes = [
     component: PrivacyPolicy,
   },
   {
-    path: '/',
+    path: '/sugarerror',
     component: Home,
     exact: true,
     role: [],
