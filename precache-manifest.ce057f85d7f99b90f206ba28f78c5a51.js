@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e796796da6f61505add2e462b4a8bd01",
+    "revision": "c42087e8344e458b43ec9fe96fb26bd0",
     "url": "/sugarerror/index.html"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sugarerror/static/css/48.16585462.chunk.css"
   },
   {
-    "revision": "031dc2c3d56d3958ba2e",
+    "revision": "9a378d4cc8ae7541f8db",
     "url": "/sugarerror/static/css/main.23aa6c0d.chunk.css"
   },
   {
@@ -348,8 +348,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sugarerror/static/js/9.6e206e70.chunk.js"
   },
   {
-    "revision": "031dc2c3d56d3958ba2e",
-    "url": "/sugarerror/static/js/main.4663dfec.chunk.js"
+    "revision": "9a378d4cc8ae7541f8db",
+    "url": "/sugarerror/static/js/main.aedad920.chunk.js"
   },
   {
     "revision": "ad297a4c665350e27ac9",
