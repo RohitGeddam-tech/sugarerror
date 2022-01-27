@@ -68,6 +68,12 @@ const initialRoutes = [
     exact: true,
     role: [],
   },
+  {
+    path: '/',
+    component: Home,
+    exact: true,
+    role: [],
+  },
   // {
   //   redirect: true,
   //   path: "/",
